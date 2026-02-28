@@ -200,7 +200,7 @@ roslaunch lowbattery_RTL low_battery.launch
 
 如需通过大语言模型（LLM）控制无人机，可参考以下项目：
 
-🔗 **参考项目**: [github.com/simpleyuanylsf](https://github.com/simpleyuanylsf)
+🔗 **参考项目**: [github.com/simpleyuanylsf]((https://github.com/simpleyuanylsf/language_demo))
 
 ### 集成思路
 
