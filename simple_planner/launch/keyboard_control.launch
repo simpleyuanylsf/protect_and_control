@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="simple_planner" type="keyboard_control_node" name="keyboard_control_node" output="screen">
+        
+    </node>
+</launch>

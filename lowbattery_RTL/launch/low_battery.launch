@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="low_battery" type="low_battery" name="low_battery" output="screen">
+        
+        <param name="low_battery_percent" value="0.20" />
+        
+        <param name="low_battery_voltage" value="22.0" />
+        
+        <param name="trigger_duration" value="5.0" />
+        
+    </node>
+</launch>

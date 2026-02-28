@@ -1,0 +1,27 @@
+<launch>
+    <!-- GeoFence Guard 节点 -->
+    <!-- 这个节点监控无人机是否在设定的安全区域内，如果飞出区域则自动返航降落 -->
+    
+    <node pkg="geofence_guard" type="geofence_guard_node" name="geofence_guard" output="screen">
+        
+        <!-- 区域形状: 0=矩形, 1=圆形 -->
+        <param name="fence_shape" value="0"/>
+        
+        <!-- 区域中心坐标 (相对于local坐标系原点，通常是起飞点) -->
+        <param name="fence_center_x" value="0.0"/>
+        <param name="fence_center_y" value="0.0"/>
+        
+        <!-- 矩形区域参数 (当 fence_shape=0 时使用) -->
+        <!-- 半宽和半高，总宽度 = half_width * 2 -->
+        <param name="fence_half_width" value="1.0"/>
+        <param name="fence_half_height" value="1.0"/>
+        
+        <!-- 圆形区域参数 (当 fence_shape=1 时使用) -->
+        <param name="fence_radius" value="1.0"/>
+        
+        <!-- 最高高度限制（米）只限制最高，不限制最低，避免地面启动误判 -->
+        <param name="max_altitude" value="2.0"/>
+        
+        
+    </node>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="simple_planner" type="uavkey_control_node" name="uavkey_control_node" output="screen">
+        
+    </node>
+</launch>
