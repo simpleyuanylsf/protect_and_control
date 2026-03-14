@@ -291,3 +291,7 @@ MIT License
 - **LLM 控制参考**: [github.com/simpleyuanylsf](https://github.com/simpleyuanylsf)
 - **PX4 官方文档**: https://docs.px4.io
 - **MAVROS 文档**: https://github.com/mavlink/mavros
+
+## 反馈
+
+若有问题 发邮件到256395180@qq.com
